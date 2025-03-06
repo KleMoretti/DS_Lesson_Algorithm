@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_2\\Map and scenic area information management system\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DAA206B-29A2-4322-8BCB-4701AE579858}|Map and scenic area information management system.vcxproj|D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_2\\Map and scenic area information management system\\Graph.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5DAA206B-29A2-4322-8BCB-4701AE579858}|Map and scenic area information management system.vcxproj|solutionrelative:Graph.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DAA206B-29A2-4322-8BCB-4701AE579858}|Map and scenic area information management system.vcxproj|D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_2\\Map and scenic area information management system\\Graph.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5DAA206B-29A2-4322-8BCB-4701AE579858}|Map and scenic area information management system.vcxproj|solutionrelative:Graph.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DAA206B-29A2-4322-8BCB-4701AE579858}|Map and scenic area information management system.vcxproj|D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_2\\Map and scenic area information management system\\Tourism.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5DAA206B-29A2-4322-8BCB-4701AE579858}|Map and scenic area information management system.vcxproj|solutionrelative:Tourism.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DAA206B-29A2-4322-8BCB-4701AE579858}|Map and scenic area information management system.vcxproj|D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_2\\Map and scenic area information management system\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5DAA206B-29A2-4322-8BCB-4701AE579858}|Map and scenic area information management system.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DAA206B-29A2-4322-8BCB-4701AE579858}|Map and scenic area information management system.vcxproj|D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_2\\Map and scenic area information management system\\Tourism.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5DAA206B-29A2-4322-8BCB-4701AE579858}|Map and scenic area information management system.vcxproj|solutionrelative:Tourism.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 242,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tourism.cpp",
+              "DocumentMoniker": "D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_2\\Map and scenic area information management system\\Tourism.cpp",
+              "RelativeDocumentMoniker": "Tourism.cpp",
+              "ToolTip": "D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_2\\Map and scenic area information management system\\Tourism.cpp",
+              "RelativeToolTip": "Tourism.cpp",
+              "ViewState": "AQIAADEAAAAAAAAAAADwvzkAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-06T06:15:11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Graph.cpp",
+              "DocumentMoniker": "D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_2\\Map and scenic area information management system\\Graph.cpp",
+              "RelativeDocumentMoniker": "Graph.cpp",
+              "ToolTip": "D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_2\\Map and scenic area information management system\\Graph.cpp",
+              "RelativeToolTip": "Graph.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-06T06:14:48.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tourism.h",
+              "DocumentMoniker": "D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_2\\Map and scenic area information management system\\Tourism.h",
+              "RelativeDocumentMoniker": "Tourism.h",
+              "ToolTip": "D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_2\\Map and scenic area information management system\\Tourism.h",
+              "RelativeToolTip": "Tourism.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-06T06:14:43.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Graph.h",
+              "DocumentMoniker": "D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_2\\Map and scenic area information management system\\Graph.h",
+              "RelativeDocumentMoniker": "Graph.h",
+              "ToolTip": "D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_2\\Map and scenic area information management system\\Graph.h",
+              "RelativeToolTip": "Graph.h",
+              "ViewState": "AQIAABEAAAAAAAAAAADwvyMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-06T06:12:59.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_2\\Map and scenic area information management system\\Main.cpp",
+              "RelativeDocumentMoniker": "Main.cpp",
+              "ToolTip": "D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_2\\Map and scenic area information management system\\Main.cpp",
+              "RelativeToolTip": "Main.cpp",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAjwAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-06T06:16:08.13Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 158,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 158,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
