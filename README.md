@@ -1,7 +1,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>武汉理工大学实验报告</title>
+    <h1>武汉理工大学实验报告</h1>
 </head>
 <body>
     <h1>WHUT 武汉理工大学</h1>
