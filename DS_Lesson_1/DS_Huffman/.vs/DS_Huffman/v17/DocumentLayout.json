@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\@DevCode\\DS_Lesson_1\\DS_Huffman\\",
+  "WorkspaceRootPath": "D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_1\\DS_Huffman\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38604081-CA1C-4242-A9DD-5E9B59F117CC}|DS_Huffman.vcxproj|D:\\@DevCode\\DS_Lesson_1\\DS_Huffman\\Compress.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{38604081-CA1C-4242-A9DD-5E9B59F117CC}|DS_Huffman.vcxproj|D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_1\\DS_Huffman\\Compress.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{38604081-CA1C-4242-A9DD-5E9B59F117CC}|DS_Huffman.vcxproj|solutionrelative:Compress.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38604081-CA1C-4242-A9DD-5E9B59F117CC}|DS_Huffman.vcxproj|D:\\@DevCode\\DS_Lesson_1\\DS_Huffman\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{38604081-CA1C-4242-A9DD-5E9B59F117CC}|DS_Huffman.vcxproj|D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_1\\DS_Huffman\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{38604081-CA1C-4242-A9DD-5E9B59F117CC}|DS_Huffman.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38604081-CA1C-4242-A9DD-5E9B59F117CC}|DS_Huffman.vcxproj|D:\\@DevCode\\DS_Lesson_1\\DS_Huffman\\Huffman.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{38604081-CA1C-4242-A9DD-5E9B59F117CC}|DS_Huffman.vcxproj|D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_1\\DS_Huffman\\Huffman.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{38604081-CA1C-4242-A9DD-5E9B59F117CC}|DS_Huffman.vcxproj|solutionrelative:Huffman.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38604081-CA1C-4242-A9DD-5E9B59F117CC}|DS_Huffman.vcxproj|D:\\@DevCode\\DS_Lesson_1\\DS_Huffman\\Compress.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{38604081-CA1C-4242-A9DD-5E9B59F117CC}|DS_Huffman.vcxproj|D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_1\\DS_Huffman\\Compress.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{38604081-CA1C-4242-A9DD-5E9B59F117CC}|DS_Huffman.vcxproj|solutionrelative:Compress.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38604081-CA1C-4242-A9DD-5E9B59F117CC}|DS_Huffman.vcxproj|D:\\@DevCode\\DS_Lesson_1\\DS_Huffman\\Huffman.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{38604081-CA1C-4242-A9DD-5E9B59F117CC}|DS_Huffman.vcxproj|D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_1\\DS_Huffman\\Huffman.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{38604081-CA1C-4242-A9DD-5E9B59F117CC}|DS_Huffman.vcxproj|solutionrelative:Huffman.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -44,9 +44,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Main.cpp",
-              "DocumentMoniker": "D:\\@DevCode\\DS_Lesson_1\\DS_Huffman\\Main.cpp",
+              "DocumentMoniker": "D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_1\\DS_Huffman\\Main.cpp",
               "RelativeDocumentMoniker": "Main.cpp",
-              "ToolTip": "D:\\@DevCode\\DS_Lesson_1\\DS_Huffman\\Main.cpp",
+              "ToolTip": "D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_1\\DS_Huffman\\Main.cpp",
               "RelativeToolTip": "Main.cpp",
               "ViewState": "AQIAAAMAAAAAAAAAAAAQwBYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -56,9 +56,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Compress.cpp",
-              "DocumentMoniker": "D:\\@DevCode\\DS_Lesson_1\\DS_Huffman\\Compress.cpp",
+              "DocumentMoniker": "D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_1\\DS_Huffman\\Compress.cpp",
               "RelativeDocumentMoniker": "Compress.cpp",
-              "ToolTip": "D:\\@DevCode\\DS_Lesson_1\\DS_Huffman\\Compress.cpp",
+              "ToolTip": "D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_1\\DS_Huffman\\Compress.cpp",
               "RelativeToolTip": "Compress.cpp",
               "ViewState": "AQIAAJMAAAAAAAAAAADgv6sAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -69,9 +69,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Huffman.cpp",
-              "DocumentMoniker": "D:\\@DevCode\\DS_Lesson_1\\DS_Huffman\\Huffman.cpp",
+              "DocumentMoniker": "D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_1\\DS_Huffman\\Huffman.cpp",
               "RelativeDocumentMoniker": "Huffman.cpp",
-              "ToolTip": "D:\\@DevCode\\DS_Lesson_1\\DS_Huffman\\Huffman.cpp",
+              "ToolTip": "D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_1\\DS_Huffman\\Huffman.cpp",
               "RelativeToolTip": "Huffman.cpp",
               "ViewState": "AQIAACIAAAAAAAAAAADgvxMAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -81,9 +81,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Huffman.h",
-              "DocumentMoniker": "D:\\@DevCode\\DS_Lesson_1\\DS_Huffman\\Huffman.h",
+              "DocumentMoniker": "D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_1\\DS_Huffman\\Huffman.h",
               "RelativeDocumentMoniker": "Huffman.h",
-              "ToolTip": "D:\\@DevCode\\DS_Lesson_1\\DS_Huffman\\Huffman.h",
+              "ToolTip": "D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_1\\DS_Huffman\\Huffman.h",
               "RelativeToolTip": "Huffman.h",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -93,9 +93,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Compress.h",
-              "DocumentMoniker": "D:\\@DevCode\\DS_Lesson_1\\DS_Huffman\\Compress.h",
+              "DocumentMoniker": "D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_1\\DS_Huffman\\Compress.h",
               "RelativeDocumentMoniker": "Compress.h",
-              "ToolTip": "D:\\@DevCode\\DS_Lesson_1\\DS_Huffman\\Compress.h",
+              "ToolTip": "D:\\@DevCode\\DS_Lesson_Algorithm\\DS_Lesson_1\\DS_Huffman\\Compress.h",
               "RelativeToolTip": "Compress.h",
               "ViewState": "AQIAAAMAAAAAAAAAAAAhwA4AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
