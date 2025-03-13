@@ -27,6 +27,7 @@ int main(void) {
 			tourism.GetSpotInfo();
 			break;
 		case '3':
+			tourism.TravelPath();
 			break;
 		case '4':
 			break;

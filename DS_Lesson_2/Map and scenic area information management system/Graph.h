@@ -15,9 +15,11 @@ struct Edge {
 	int vex2;
 	int weight;
 };
-struct PathList {
 
-};
+typedef struct Path {
+	int vexs[20];
+	Path* next; //下一条路径
+}*PathList;
 
 class CGraph {
 public:

@@ -64,8 +64,11 @@ int CGraph::GetVexNum()
 	return m_nVexNum;
 }
 
-void CGraph::DFSTraverse(int nVex, PathList& List)
+void CGraph::DFSTraverse(int nVex, PathList& pList)
 {
+	int nIndex = 0;
+	bool aVisted[MAX_VERTEX_NUM] = { false };
+	DFS(nVex, aVisted, nIndex, pList);
 }
 
 int CGraph::FindShortPath(int nVexStart, int nVexEnd, Edge aPath[])
@@ -77,6 +80,36 @@ void CGraph::FindMinTree(Edge aPath[])
 {
 }
 
-void CGraph::DFS(int nVex, bool aVisited[], int& nIndex, PathList& List)
+void CGraph::DFS(int nVex, bool aVisited[], int& nIndex, PathList& pList)
 {
+	aVisited[nVex] = true; // 已经访问过
+	pList->vexs[nIndex++] = nVex;
+
+	int nVexNum = 0;
+	for (int i = 0; i < m_nVexNum; i++) // 搜索 nVex 的所有邻接点
+	{
+		if (aVisited[i])
+		{
+			nVexNum++;
+		}
+	}
+	if (nVexNum == m_nVexNum) {
+		pList->next = (PathList)malloc(sizeof(Path));
+		for (int i = 0; i < m_nVexNum; i++) {
+			pList->next->vexs[i] = pList->vexs[i];
+		}
+		pList = pList->next;
+		pList->next = NULL;
+	}
+	else {
+		for (int i = 0; i < m_nVexNum; i++) {
+			if ((!aVisited[i]) && (m_aAdjMatrix[nVex][i] > 0)) {
+				DFS(i, aVisited, nIndex, pList);
+
+				aVisited[i] = false;
+				nIndex--;
+			}
+		}//for
+	}
 }
+

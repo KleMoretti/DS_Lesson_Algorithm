@@ -94,3 +94,53 @@ void CTourism::GetSpotInfo()
 		cout << v1.name << "->" << v2.name << " " << aEdge[i].weight << "m" << endl;
 	} 
 }
+
+void CTourism::TravelPath()
+{
+	cout << "==== Travel Scenic Path ====" << endl;
+	int nVexNum = m_Graph.GetVexNum();
+
+	for (int i = 0; i < nVexNum; i++) {
+		Vex sVex = m_Graph.GetVex(i);
+		cout << sVex.num << "-" << sVex.name << endl;
+	}
+
+	int nVex;
+	cout << "Please input the starting point number: ";
+	cin >> nVex;
+	if (nVex < 0 || nVex >= nVexNum) {
+		cout << "Error Input!\n";
+		return;
+	}
+
+	PathList pList = (PathList)malloc(sizeof(Path));
+	if (pList == NULL) {
+		cout << "Memory allocation failed!" << endl;
+		return;
+	}
+	PathList pHead = pList;
+
+	m_Graph.DFSTraverse(nVex, pList);
+
+	cout << "---- Travel Path ----" << endl;
+	int i = 1;
+
+	pList = pHead;
+	while (pList->next!=NULL) {
+		Vex sVex = m_Graph.GetVex(pList->vexs[0]);
+		cout << "Path" << i++ << ": " << sVex.name;
+		for (int j = 1; j < nVexNum; j++) {
+			sVex = m_Graph.GetVex(pList->vexs[j]);
+			cout << "-> " << sVex.name;
+		}
+		cout << endl;
+		Path* temp = pList;
+		pList = pList->next;
+		free(temp);
+
+	}
+	free(pList);
+	pList = NULL;
+	pHead = NULL;
+}
+

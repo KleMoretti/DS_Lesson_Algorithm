@@ -8,4 +8,5 @@ public:
 	~CTourism(void);
 	void CreateGraph();
 	void GetSpotInfo();
+	void TravelPath();
 };
