@@ -3,7 +3,6 @@
 #include"Tourism.h"
 using namespace std;
 
-
 int main(void) {
 	CTourism tourism;
 	bool bRunning = true;
@@ -30,15 +29,16 @@ int main(void) {
 			tourism.TravelPath();
 			break;
 		case '4':
+			tourism.FindShortPath();
 			break;
 		case '5':
+			tourism.DesignPath();
 			break;
 		case '0':
 			bRunning = false;
 			cout << "GoodBye!" << endl;
 			break;
 		}
-
 	}
 	return 0;
 }

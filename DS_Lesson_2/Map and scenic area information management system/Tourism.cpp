@@ -35,7 +35,7 @@ void CTourism::CreateGraph()
 
 	cout << "----- Vex ----" << endl;
 	Vex sVex;
-	while (fscanf_s(pVex, "%d\n%s\n%s\n", &sVex.num, sVex.name, 
+	while (fscanf_s(pVex, "%d\n%s\n%s\n", &sVex.num, sVex.name,
 		(unsigned)_countof(sVex.name), sVex.desc, (unsigned)_countof(sVex.desc)) != EOF) {
 		cout << sVex.num << "-" << sVex.name << endl;
 		if (!m_Graph.InsertVex(sVex)) {
@@ -67,7 +67,7 @@ void CTourism::CreateGraph()
 
 void CTourism::GetSpotInfo()
 {
-	cout << "==== Search Scenic Spot Info" << endl;
+	cout << "==== Search Scenic Spot Info ====" << endl;
 	int nVexNum = m_Graph.GetVexNum();
 	for (int i = 0; i < nVexNum; i++) {
 		Vex sVex = m_Graph.GetVex(i);
@@ -84,7 +84,7 @@ void CTourism::GetSpotInfo()
 	Vex sVex = m_Graph.GetVex(nVex);
 	cout << sVex.name << endl;
 	cout << sVex.desc << endl;
-	
+
 	Edge aEdge[MAX_VERTEX_NUM];
 	int nEdgeNum = m_Graph.FindEdge(nVex, aEdge);
 	cout << "---- Surrounding Scenic Spot ----" << endl;
@@ -92,7 +92,7 @@ void CTourism::GetSpotInfo()
 		Vex v1 = m_Graph.GetVex(aEdge[i].vex1);
 		Vex v2 = m_Graph.GetVex(aEdge[i].vex2);
 		cout << v1.name << "->" << v2.name << " " << aEdge[i].weight << "m" << endl;
-	} 
+	}
 }
 
 void CTourism::TravelPath()
@@ -126,7 +126,7 @@ void CTourism::TravelPath()
 	int i = 1;
 
 	pList = pHead;
-	while (pList->next!=NULL) {
+	while (pList->next != NULL) {
 		Vex sVex = m_Graph.GetVex(pList->vexs[0]);
 		cout << "Path" << i++ << ": " << sVex.name;
 		for (int j = 1; j < nVexNum; j++) {
@@ -137,10 +137,64 @@ void CTourism::TravelPath()
 		Path* temp = pList;
 		pList = pList->next;
 		free(temp);
-
 	}
 	free(pList);
 	pList = NULL;
 	pHead = NULL;
 }
 
+void CTourism::FindShortPath()
+{
+	cout << "===== Search Shortest Path =====" << endl;
+	int nVexNum = m_Graph.GetVexNum();
+
+	for (int i = 0; i < nVexNum; i++) {
+		Vex sVex = m_Graph.GetVex(i);
+		cout << sVex.num << " - " << sVex.name << endl;
+	}
+
+	int nVexStart, nVexEnd;
+	cout << "Please input start number: ";
+	cin >> nVexStart;
+	cout << "Please input end number: ";
+	cin >> nVexEnd;
+
+	if (nVexStart < 0 || nVexStart >= nVexNum || nVexEnd < 0 || nVexEnd >= nVexNum) {
+		cout << " input error!" << endl;
+		return;
+	}
+
+	Edge aPath[MAX_VERTEX_NUM];
+	int nNum = m_Graph.FindShortPath(nVexStart, nVexEnd, aPath);
+	Vex sVex = m_Graph.GetVex(aPath[0].vex1);
+	int nLength = 0;
+	cout << "Shortest Path: ";
+	for (int i = 0; i < nNum; i++) {
+		sVex = m_Graph.GetVex(aPath[i].vex2);
+		cout << " -> " << sVex.name;
+		nLength += aPath[i].weight;
+	}
+	cout << endl;
+	cout << "Shortest Distance: " << nLength << endl;
+}
+
+void CTourism::DesignPath()
+{
+	cout << "===== Design Path =====" << endl;
+	Edge aPath[MAX_VERTEX_NUM];
+	m_Graph.FindMinTree(aPath);
+	int nVexNum = m_Graph.GetVexNum();
+	if (nVexNum == 0) {
+		cout << "Please create graph first! " << endl;
+		return;
+	}
+	int nAllLength = 0;
+	cout << "Please choose two number to design path: " << endl;
+	for (int i = 0; i < nVexNum - 1; i++) {
+		Vex sVex1 = m_Graph.GetVex(aPath[i].vex1);
+		Vex sVex2 = m_Graph.GetVex(aPath[i].vex2);
+		cout << sVex1.name << " - " << sVex2.name << aPath[i].weight << "m" << endl;
+		nAllLength += aPath[i].weight;
+	}
+	cout << "Design path length: " << nAllLength << endl;
+}

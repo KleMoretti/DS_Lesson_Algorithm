@@ -1,7 +1,7 @@
 #pragma once
 #include"Graph.h"
 class CTourism {
-private :
+private:
 	CGraph m_Graph;
 public:
 	CTourism(void);
@@ -9,4 +9,6 @@ public:
 	void CreateGraph();
 	void GetSpotInfo();
 	void TravelPath();
+	void FindShortPath();
+	void DesignPath();
 };
