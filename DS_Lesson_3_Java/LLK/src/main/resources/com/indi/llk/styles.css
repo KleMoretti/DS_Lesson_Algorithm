@@ -1,0 +1,12 @@
+.game-button {
+    -fx-background-color: #C0BC9B;
+    -fx-min-width: 200;
+    -fx-min-height: 60;
+    -fx-pref-width: 30%;
+    -fx-max-width: 300;
+}
+
+.game-button:hover {
+    -fx-background-color:  #FFFFFF;
+    -fx-border-color: #C0BC9B;
+}

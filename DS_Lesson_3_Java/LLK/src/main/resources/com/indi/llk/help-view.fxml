@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<?import javafx.scene.control.ScrollPane?>
+<AnchorPane prefHeight="422.0" prefWidth="492.0"
+            xmlns="http://javafx.com/javafx/8"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.indi.llk.Window_Controller.Help_Controller">
+    <ScrollPane fitToWidth="true" AnchorPane.topAnchor="20.0"
+                AnchorPane.rightAnchor="20.0"
+                AnchorPane.bottomAnchor="20.0"
+                AnchorPane.leftAnchor="20.0">
+        <TextFlow fx:id="helpTextFlow" lineSpacing="5.0">
+            <padding>
+                <Insets top="20" right="20" bottom="20" left="20"/>
+            </padding>
+        </TextFlow>
+    </ScrollPane>
+</AnchorPane>

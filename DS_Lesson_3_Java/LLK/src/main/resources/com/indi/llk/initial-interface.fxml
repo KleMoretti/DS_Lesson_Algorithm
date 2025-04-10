@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="ID_GROUND" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.indi.llk.Interface_Controller.Initial_Interface">
+    <children>
+        <!-- 使用 VBox 作为主容器 -->
+        <VBox alignment="CENTER" spacing="20" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+           <children>
+               <!-- 上部空白区域 -->
+               <Region minHeight="100" VBox.vgrow="ALWAYS" />
+   
+               <!-- 按钮容器 -->
+               <VBox alignment="CENTER" spacing="30" VBox.vgrow="NEVER">
+      <children>
+                      <Button fx:id="IDC_BTN_BASIC" styleClass="game-button" text="Normal Mode">
+                          <font>
+                              <Font size="24.0" />
+                          </font>
+                      </Button>
+                      <Button fx:id="IDC_BTN_RELAX" styleClass="game-button" text="Casual Mode">
+                          <font>
+                              <Font size="24.0" />
+                          </font>
+                      </Button>
+                      <Button fx:id="IDC_BTN_LEVEL" styleClass="game-button" text="Level Mode">
+                          <font>
+                              <Font size="24.0" />
+                          </font>
+                      </Button>
+      </children>
+               </VBox>
+   
+               <!-- 底部容器 -->
+               <HBox alignment="CENTER" maxHeight="-Infinity" prefHeight="150.0" prefWidth="600.0" spacing="20" VBox.vgrow="ALWAYS">
+      <children>
+                      <Label fx:id="LinkGameText" alignment="BOTTOM_LEFT" contentDisplay="BOTTOM" prefHeight="130.0" prefWidth="213.0" text="Copyright @ 2025 Klein">
+                          <font>
+                              <Font size="17.0" />
+                          </font>
+                      </Label>
+                      <Region maxHeight="-Infinity" prefHeight="150.0" prefWidth="184.0" HBox.hgrow="ALWAYS" />
+                  <Pane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                            <Button fx:id="IDC_BTN_SETTINGS" alignment="CENTER" contentDisplay="CENTER" layoutX="32.0" layoutY="56.0" prefHeight="38.0" prefWidth="125.0" text="Settings" />
+                        <Button fx:id="IDC_BTN_ABOUT" layoutX="32.0" layoutY="106.0" mnemonicParsing="false" prefWidth="125.0" text="About" />
+                     </children>
+                  </Pane>
+      </children>
+               </HBox>
+           </children>
+        </VBox>
+    </children>
+</AnchorPane>

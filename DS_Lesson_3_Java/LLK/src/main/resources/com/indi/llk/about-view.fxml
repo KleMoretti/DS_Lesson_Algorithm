@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="300" prefWidth="400" spacing="20" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.indi.llk.Window_Controller.About_Controller">
+    <padding>
+        <Insets bottom="20" left="20" right="20" top="20" />
+    </padding>
+   <children>
+   
+       <ImageView fx:id="gameIcon" fitHeight="64" fitWidth="64" preserveRatio="true" />
+   
+       <VBox alignment="CENTER" spacing="10">
+      <children>
+              <Label style="-fx-font-size: 24; -fx-font-weight: bold;" text="Link Game" />
+              <Label text="Version 1.0.0" />
+              <Separator>
+                  <VBox.margin>
+                      <Insets bottom="10" top="10" />
+                  </VBox.margin>
+              </Separator>
+              <Label text="A classic link matching puzzle game" wrapText="true" />
+              <Label style="-fx-font-style: italic;" text="Copyright © 2025 Klein" />
+      </children>
+       </VBox>
+   </children>
+</VBox>
